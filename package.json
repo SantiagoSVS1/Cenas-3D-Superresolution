@@ -1,0 +1,26 @@
+{
+  "name": "Hello World",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "prettier": "prettier --config .prettierrc --check .",
+    "prettier-fix": "prettier --config .prettierrc . --write",
+    "lint": "eslint ./src/",
+    "lint-fix": "eslint --fix ./src/ && echo 'Lint complete.'",
+    "test": "npm run unit --prefix test"
+  },
+  "dependencies": {
+    "@types/three": "^0.152.1",
+    "three": "^0.151.3",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "vite": "^4.4.9"
+  }
+}
